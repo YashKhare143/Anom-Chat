@@ -1,0 +1,22 @@
+.sidebarChat{
+    display: flex;
+    padding: 20px;
+    cursor: pointer;
+    background:linear-gradient(to right, #6b4df0,#a54dce);
+    transition: 1s linear;
+}
+.sidebarChat:hover{
+    background:linear-gradient(to right, #583dcf,#9c46c4);
+}
+.sidebarChat_info > h2{
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+.sidebarChat_info{
+    margin-left: 15px;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
